@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import FoodItemP
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+      super.viewDidLoad()
+      let food = FoodItem(name: "burger", price: 12, vegetarian: false)
+      print(food.price)
+      
     }
 
     override func didReceiveMemoryWarning() {
