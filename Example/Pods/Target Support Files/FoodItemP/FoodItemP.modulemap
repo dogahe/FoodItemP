@@ -1,0 +1,6 @@
+framework module FoodItemP {
+  umbrella header "FoodItemP-umbrella.h"
+
+  export *
+  module * { export * }
+}

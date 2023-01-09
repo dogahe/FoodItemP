@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FoodItemP'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FoodItemP.'
+  s.summary          = 'A Food Item Class.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -26,6 +26,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'dogahe' => 'behzadbmd@yahoo.com' }
   s.source           = { :git => 'https://github.com/dogahe/FoodItemP.git', :tag => s.version.to_s }
+  s.swift_version = '5.0'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'

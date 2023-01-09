@@ -1,0 +1,16 @@
+PODS:
+  - FoodItemP (0.1.0)
+
+DEPENDENCIES:
+  - FoodItemP (from `../`)
+
+EXTERNAL SOURCES:
+  FoodItemP:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FoodItemP: f8d01f653847dbede4750686f7389ef419a7afac
+
+PODFILE CHECKSUM: 33cd607f8f79dd49cf4d7cf2ac5fd2384bac78d9
+
+COCOAPODS: 1.11.3
